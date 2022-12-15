@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Global bidule",
+  "permissions": ["scripting", "activeTab", "declarativeContent"],
+  "host_permissions": ["<all_urls>"],
+  "description": "JPP de global exam",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "creep.png"
+  }
+} 
