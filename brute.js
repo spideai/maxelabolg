@@ -6,7 +6,7 @@ function sleep(ms) {
 
 function seeAnswers() {
     Array.prototype.slice.call(document.getElementsByTagName('button'))
-    .filter(button => button.textContent === "Voir la correction ")
+    .filter(button => button.textContent === "Voir la correction " || button.children?.[0]?.textContent === "Correction")
     .forEach(button => button.click());
 }
 
@@ -20,9 +20,9 @@ function clickRightAnswers() {
 
 function clearPage() {
     let validateButton = Array.prototype.slice.call(document.getElementsByTagName('button'))
-                .filter(button => button.textContent === "Valider")[0]
+                .filter(button => ["Suivant", "Valider", "Passer"].includes(button.textContent))[0]
     if (!validateButton) {
-        clickRightAnswers()
+        seeAnswers()
         sleep(100).then(clickRightAnswers)
         return;
     };
@@ -35,7 +35,7 @@ function clearPage() {
 
         sleep(100).then(() => {
             validateButton.click()
-            sleep(2000).then(() => {
+            sleep(1000).then(() => {
                clearPage()
             })
         })
