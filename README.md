@@ -21,3 +21,11 @@
 
 
 ## enjoy
+
+### Troubleshooting:
+
+ you need to have "show right answers" enabled the controll for that 
+is in the activity list on the right 
+
+
+![alt text](https://media.discordapp.net/attachments/732516608794165310/1053307035359391794/image.png)
