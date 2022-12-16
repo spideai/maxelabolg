@@ -1,6 +1,6 @@
 ![alt text](https://cdn.discordapp.com/attachments/959451689264500767/1053263164235599952/Untitled.png)
 
-# How to run maxelaborg
+# How to run maxelabolg
 
 - clone the repo
 - go to chrome://extension
@@ -10,7 +10,7 @@
 - after that you can pin the extension on the top right of your browser
 
 
-# How to use maxelaborg:
+# How to use maxelabolg:
 
 - go to global-exam website
 - start a new activity
