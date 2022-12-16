@@ -1,3 +1,5 @@
+![alt text](https://cdn.discordapp.com/attachments/959451689264500767/1053263164235599952/Untitled.png)
+
 # How to run maxelaborg
 
 - clone the repo
