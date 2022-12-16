@@ -19,7 +19,6 @@ function clickRightAnswers() {
 
 
 function clearPage() {
-    console.log("clearPage")
     let validateButton = Array.prototype.slice.call(document.getElementsByTagName('button'))
                 .filter(button => button.textContent === "Valider")[0]
     if (!validateButton) {

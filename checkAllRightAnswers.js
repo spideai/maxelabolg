@@ -1,4 +1,4 @@
-Array.prototype.slice.call(document.getElementsByTagName('button'))
+[...document.getElementsByTagName('button')]
     .filter(button => button.textContent === "Voir la correction ")
     .forEach(button => button.click());
 
