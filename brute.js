@@ -29,13 +29,13 @@ function clearPage() {
 
     seeAnswers();
 
-    sleep(100).then(() => {
+    sleep(300).then(() => {
 
         clickRightAnswers()
 
-        sleep(100).then(() => {
+        sleep(300).then(() => {
             validateButton.click()
-            sleep(1000).then(() => {
+            sleep(1500).then(() => {
                clearPage()
             })
         })

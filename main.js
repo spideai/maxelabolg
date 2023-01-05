@@ -54,3 +54,14 @@ document.querySelector('#global-exam').addEventListener('click', (event) => {
   );
   });
 });
+
+document.querySelector('#mega-brute').addEventListener('click', (event) => {
+    chrome.tabs.query({ active: true, lastFocusedWindow: true }, function (tabs) {
+        chrome.scripting.executeScript(
+            {
+                target: {tabId: tabs[0].id},
+                files: ['megaBrute.js'],
+            },
+        );
+    });
+});
